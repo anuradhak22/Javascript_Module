@@ -46,6 +46,10 @@ const users = [
 ]
 
 users[1].email
+console.log(users[0].gender = "Female");
+
+console.log(users[0]);
+
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
