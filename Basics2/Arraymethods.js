@@ -37,3 +37,28 @@ let num2 = num1.filter((el)=>{
 console.log(num2);
 
 
+//4.every    if all true then returns true
+let a = [3,4,5].every((el)=>el%2==0);
+console.log(a);
+
+//reduce arr.reduce(accumulator,element)
+let b = [3,4,5].reduce((res,el)=>(res+el))
+console.log(b);
+
+//spread   reach every value.
+let c = [1,2,3,5,3];
+let d = Math.max(...c)
+console.log(d);
+
+let arr2 = [2,3,4,5]
+let newarr = [...arr2];
+console.log(newarr);
+
+//using object
+let obj = {
+    emal :"anurdaha"
+}
+let datacopy = {...obj,id:123}
+console.log(datacopy);
+
+//rest bundle the values in one it is opposite to spread
